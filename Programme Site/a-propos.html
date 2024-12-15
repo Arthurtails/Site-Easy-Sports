@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A propos de nous - Easy Sports</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .timeline h2 {
+            margin-bottom: 20px;
+        }
+
+        .timeline-item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 30px;
+            width: 90%;
+            max-width: 800px;
+        }
+
+        .timeline-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .timeline-item img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 20px;
+        }
+
+        .timeline-item .content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .timeline-item .content h3 {
+            margin-top: 0;
+        }
+
+        .timeline-item .content p {
+            margin: 10px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="Produits.html">Produits</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="a-propos.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="timeline">
+            <h2>Notre Histoire</h2>
+
+            <div class="timeline-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlKi1vYU3RZ1AxEQV0TcHgl073h0Tq_fWZgg&s" alt="Création de l'entreprise">
+                <div class="content">
+                    <h3>2020 - La Naissance</h3>
+                    <p>Easy Sports a été fondée par un groupe de passionnés de sport avec une mission claire : rendre le sport accessible à tous, grâce à des produits innovants et abordables.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/15/6d/d6/paris.jpg?w=1200&h=-1&s=1" alt="Ouverture du premier magasin">
+                <div class="content">
+                    <h3>2021 - Premier Magasin</h3>
+                    <p>Nous avons ouvert notre premier magasin à Paris, offrant une expérience unique combinant boutique physique et conseils d'experts.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <img src="https://www.shutterstock.com/image-vector/businessman-put-new-branch-pin-600nw-2185006909.jpg" alt="Expansion internationale">
+                <div class="content">
+                    <h3>2022 - Expansion</h3>
+                    <p>Grâce à notre succès, nous avons élargi nos opérations à plusieurs villes en Europe, en ligne et en magasin.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <img src="https://u2vjdxa2quhx-u4030.pressidiumcdn.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/10/digital-innovation-light-bulb-moment.png.webp" alt="L'innovation au cœur">
+                <div class="content">
+                    <h3>2023 - Innovations</h3>
+                    <p>Nous avons lancé une gamme de produits écoresponsables et adopté les dernières technologies pour améliorer nos équipements.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <img src="https://www.actu-environnement.com/images/illustrations/news/17893_une.jpg" alt="L'avenir d'Easy Sports">
+                <div class="content">
+                    <h3>2024 - L'Avenir</h3>
+                    <p>Easy Sports continue d'innover et de s'engager pour un avenir plus sain et durable, tout en élargissant ses services à l'international.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Easy Sports | Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
